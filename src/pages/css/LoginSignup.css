@@ -1,0 +1,141 @@
+body {
+   background-color: black;
+   color: white;
+}
+
+.container {
+   width: 100%;
+   background-color: black;
+}
+
+.container--l {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   float: left;
+   height: 100vh;
+}
+
+.container--l > .MuiSvgIcon-root {
+   font-size: 350px;
+   color: white;
+}
+
+.container--r {
+   /* margin-left: 50%; */
+   width: 50%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.container--r > h1 {
+   font-weight: 700;
+   font-size: 70px;
+   margin-bottom: 40px;
+   margin-top: -15%;
+}
+
+.container--r > h2 {
+   font-weight: 700;
+   font-size: 35px;
+   margin-bottom: 30px;
+}
+
+.container--buttons {
+   display: flex;
+   flex-direction: column;
+}
+
+.container--button1 {
+   width: 38%;
+   height: 37px;
+   margin-bottom: 10px !important;
+   font-weight: 600 !important;
+   font-size: 14px !important;
+   background-color: white !important;
+   border-radius: 30px !important;
+   color: rgb(0, 0, 0) !important;
+   text-transform: inherit !important;
+   min-width: 220px !important;
+}
+
+.container--button1:hover {
+   background-color: rgba(238, 237, 237, 0.738) !important;
+}
+
+.container--button2 {
+   width: 38%;
+   height: 37px;
+   font-weight: 600 !important;
+   font-size: 14px !important;
+   background-color: #2f98d9 !important;
+   border-radius: 30px !important;
+   color: white !important;
+   text-transform: inherit !important;
+   min-width: 220px !important;
+}
+
+.container--button2:hover {
+   background-color: rgb(24, 117, 188) !important;
+}
+
+.container--buttons > h3 {
+   font-size: 15px;
+   /* position relative avoids moving other elements when you just want to move one */
+   position: relative;
+   top: 85px;
+}
+
+.container--button3 {
+   width: 38%;
+   height: 37px;
+   font-weight: 600 !important;
+   font-size: 14px !important;
+   background-color: #000000 !important;
+   border-radius: 30px !important;
+   color: #2f98d9 !important;
+   text-transform: inherit !important;
+   min-width: 220px !important;
+   border-color: rgb(112, 111, 111) !important;
+   position: relative;
+   top: 100px;
+}
+
+.container--button3:hover {
+   border-color: rgb(32, 45, 59) !important;
+}
+
+.googleIcon {
+   font-size: 19px !important;
+   margin-right: 3px;
+   color: #fc0000 !important;
+}
+
+.appleIcon {
+   font-size: 23px !important;
+   color: black !important;
+   margin-right: 2px;
+}
+
+p {
+   font-weight: 500;
+   font-size: 13px;
+   margin-top: 2px;
+   margin-bottom: 6px;
+   padding: 0px 5px;
+}
+
+.lines {
+   display: flex;
+   align-items: center;
+   margin-top: -5px;
+}
+
+.line {
+   background-color: rgba(135, 135, 135, 0.483);
+   height: 1px;
+   width: 17%;
+}
