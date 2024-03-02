@@ -1,86 +1,86 @@
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {
-   display: none;
+	display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 * {
-   -ms-overflow-style: none;
-   scrollbar-width: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 .sidebar {
-   width: 27%;
-   height: 100vh;
-   min-width: 250px;
-   border-right: 1px solid rgba(128, 128, 128, 0.537);
-   margin-top: 10px;
-   padding-right: 20px;
-   /* align-items: left; */
-   /* flex: 0.3; */
-   /* float: left; */
-   /* background-color: red; */
+	width: 27%;
+	height: 100vh;
+	min-width: 250px;
+	border-right: 1px solid rgba(128, 128, 128, 0.537);
+	margin-top: 10px;
+	padding-right: 20px;
+	/* align-items: left; */
+	/* flex: 0.3; */
+	/* float: left; */
+	/* background-color: red; */
 }
 
 .sidebar--options {
-   display: flex;
-   flex-direction: column;
-   margin-left: auto;
-   margin-right: 40px;
-   max-width: 200px;
-   /* background-color: green; */
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: 40px;
+	max-width: 200px;
+	/* background-color: green; */
 }
 
 .sidebar--button {
-   border-radius: 30px !important;
-   width: fit-content;
-   color: rgb(222, 222, 222) !important;
-   text-transform: inherit !important;
-   font-size: 20px !important;
-   padding: 8px !important;
-   /* background-color: blue !important; */
+	border-radius: 30px !important;
+	width: fit-content;
+	color: rgb(222, 222, 222) !important;
+	text-transform: inherit !important;
+	font-size: 20px !important;
+	padding: 8px !important;
+	/* background-color: blue !important; */
 }
 
 .sidebar--button:hover {
-   background-color: rgba(118, 118, 118, 0.270) !important;
+	background-color: rgba(118, 118, 118, 0.270) !important;
 }
 
-.sidebar--button > .MuiSvgIcon-root {
-   margin-right: 19px;
-   font-size: 30px;
+.sidebar--button>.MuiSvgIcon-root {
+	margin-right: 19px;
+	font-size: 30px;
 }
 
 .sidebar--button-post {
-   border-radius: 30px !important;
-   color: rgb(222, 222, 222) !important;
-   width: 230px;
-   height: 50px;
-   text-transform: inherit !important;
-   font-size: 17px !important;
-   padding: 8px !important;
-   font-weight: 600 !important;
-   background-color: rgb(29, 155, 249) !important;
+	border-radius: 30px !important;
+	color: rgb(222, 222, 222) !important;
+	width: 230px;
+	height: 50px;
+	text-transform: inherit !important;
+	font-size: 17px !important;
+	padding: 8px !important;
+	font-weight: 600 !important;
+	background-color: rgb(29, 155, 249) !important;
 }
 
 .sidebar--button-post:hover {
-   background-color: rgb(24, 117, 188) !important;
+	background-color: rgb(24, 117, 188) !important;
 }
 
 .sidebar--button-active {
-   border-radius: 30px !important;
-   width: fit-content;
-   color: rgb(222, 222, 222) !important;
-   font-weight: 700 !important;
-   text-transform: inherit !important;
-   font-size: 20px !important;
-   padding: 8px !important;
+	border-radius: 30px !important;
+	width: fit-content;
+	color: rgb(222, 222, 222) !important;
+	font-weight: 700 !important;
+	text-transform: inherit !important;
+	font-size: 20px !important;
+	padding: 8px !important;
 }
 
 .sidebar--button-active:hover {
-   background-color: rgba(118, 118, 118, 0.270) !important;
+	background-color: rgba(118, 118, 118, 0.270) !important;
 }
 
-.sidebar--button-active > .MuiSvgIcon-root {
-   margin-right: 19px;
-   font-size: 30px;
+.sidebar--button-active>.MuiSvgIcon-root {
+	margin-right: 19px;
+	font-size: 30px;
 }

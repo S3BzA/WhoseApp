@@ -12,26 +12,26 @@ import Communities from './pages/js/Communities';
 import Profile from './pages/js/Profile';
 
 function App() {
-  return (
-    <div className="app">
-      <BrowserRouter>
-        <Routes>
-          {/* index specifies default page when app is launched */}
-          <Route index element={<LoginSignup />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/explore" element={<Explore />} /> 
-          <Route path="/notifications" element={<Notifications />} /> 
-          <Route path="/messages" element={<Messages />} /> 
-          <Route path="/lists" element={<Lists />} /> 
-          <Route path="/bookmarks" element={<Bookmarks />} /> 
-          <Route path="/communities" element={<Communities />} /> 
-          {/* Premium? */}
-          <Route path="/profile" element={<Profile />} /> 
-           {/* More? */}
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+	return (
+		<div className="app">
+			<BrowserRouter>
+				<Routes>
+					{/* index specifies default page when app is launched */}
+					<Route index element={<LoginSignup />} />
+					<Route path="/home" element={<Home />} />
+					<Route path="/explore" element={<Explore />} />
+					<Route path="/notifications" element={<Notifications />} />
+					<Route path="/messages" element={<Messages />} />
+					<Route path="/lists" element={<Lists />} />
+					<Route path="/bookmarks" element={<Bookmarks />} />
+					<Route path="/communities" element={<Communities />} />
+					{/* Premium? */}
+					<Route path="/profile" element={<Profile />} />
+					{/* More? */}
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;
