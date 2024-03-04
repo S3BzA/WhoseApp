@@ -1,0 +1,50 @@
+.container--feed {
+   flex: 0.4;
+   border-right: 1px solid rgba(128, 128, 128, 0.500);
+   /* width: 40%; */
+   /* background-color: red; */
+}
+
+.container--feed-header {
+   width: 100%;
+   height: 180px;
+   /* background-color: green; */
+}
+
+.container--feed-header-top {
+   width: 100%;
+   height: 55px;
+   position: sticky;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.500);
+   /* background-color: blue; */
+}
+
+.container--feed-header-top-button {
+   width: 50%;
+   height: 100%;
+   color: white !important;
+   text-transform: inherit !important;
+   font-size: 16px !important;
+   border-radius: 0px !important;
+}
+
+.container--feed-header-tweetBox {
+   height: 70%;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.500);
+   /* background-color: purple; */
+}
+
+.tweet-input {
+   padding: 13px;
+   display: flex;
+   /* background-color: gray; */
+}
+
+.tweet-input > input {
+   font-size: 20px;
+   padding-left: 10px;
+   border: none;
+   background-color: black;
+   outline: none;
+   color: white;
+}

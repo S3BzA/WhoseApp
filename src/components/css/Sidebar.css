@@ -10,13 +10,13 @@
 }
 
 .sidebar {
-	flex: 0.3;
+	/* width: 27%; */
 	height: 100vh;
 	min-width: 250px;
-	border-right: 1px solid rgba(128, 128, 128, 0.537);
-	margin-top: 10px;
+	border-right: 1px solid rgba(128, 128, 128, 0.500);
 	padding-right: 20px;
-	/* width: 27%; */
+	flex: 0.3;
+	/* margin-top: 10px; */
 	/* align-items: left; */
 	/* float: left; */
 	/* background-color: red; */

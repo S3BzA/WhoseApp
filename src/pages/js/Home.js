@@ -1,13 +1,14 @@
 import React from 'react';
 import '../css/Home.css';
 import Sidebar from '../../components/js/Sidebar';
+import Feed from '../../components/js/Feed';
 
 function Home() {
 	return (
 		<div className='container'>
 			<Sidebar />
-			<h1>Home</h1>
-			{/* Feed */}
+			
+			<Feed />
 
 			{/* Trends */}
 
