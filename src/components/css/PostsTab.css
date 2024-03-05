@@ -1,0 +1,91 @@
+/** Posts**/
+.postsContainer {
+    /* margin: 0 16px; */
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.heading {
+    padding: 12px 16px;
+}
+
+.postsContainer span {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.accountToFollow {
+    display: flex; 
+    flex-direction: column;
+    font-size: 15px;
+    padding: 12px 16px;
+}
+
+.accountToFollow:hover {
+    background-color:rgba(19, 19, 19, 0.489);
+    cursor: pointer;
+}
+
+.profileImg {
+    height: 85px;
+}
+
+.accountToFollow img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.accountToFollow .userHandle {
+    margin-bottom: 0;
+}
+
+.accountInfoDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.account {
+    width: 100%;
+}
+
+.accountInfo {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.accountInfo button {
+    outline: none;
+    border: 0.8px solid #fff;
+    height: 32px;
+    width: 99px;
+    padding: 0 16px;
+    line-height: 20px;
+    border-radius: 9999px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.2 ease-in;
+}
+
+.accountInfoDiv button:hover {
+    border: 0.8px solid #868585;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.accountToFollow p {
+   padding-top: 4px;
+   font-size: 15px;
+}
+
+/*** See more ***/
+.seeMoreLink {
+    color: var(--twitter-blue);
+    font-size: 15px;
+}

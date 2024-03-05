@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+:root {
+   --font-color-dark: rgb(113, 118, 123); 
+   --font-color-light: rgb(231, 233, 234); 
+   --dark-grey: rgb(62, 65, 68);
+   --twitter-blue: rgb(29, 155, 240);
+   --hover-color: rgba(118, 118, 118, 0.270);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/** Back Nav***/
+.backNav {
+    display: flex;
+    background: rgba(0, 0, 0, 0.65);
+    margin: 0 16px;
+    margin-left: 10px;
+    height: 53px;
+}
+
+.backNav .profileInfo {
+    display: flex;
+    flex-direction: column;
+    height: 42px;
+}
+
+.arrowIconDiv {
+    display: flex;
+    align-items: center;
+    min-width: 56px;
+}
+
+.arrowIcon {
+    color: var(--font-color-light);
+    fill: var(--font-color-light);
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+}
+
+.arrowIcon:hover {
+    border-radius: 999px;
+    background-color: var(--hover-color);
+}
+
+.backNav .username {
+    padding: 2px 0;
+}
+
+.numPosts {
+    color: var(--font-color-dark);
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+/****/
+
+.header {
+    width: 40%;
+}
+
+.headerImg {
+    display: block;
+    width: 100%;
+    height: 199.462px;
+    background-color: rgb(62, 65, 68);
+}
+
+.profileImg-profileBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 65.65px;
+    max-width: 100%;
+    list-style-position: outside;
+
+    margin: 0 15px;
+}
+
+.profileImgDiv {
+    background-image: url('https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png');
+    display: flex;
+    flex-direction: column;
+
+    width: 133.6px;
+    height: 133.6px;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 0px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    cursor: pointer;
+} 
+
+.editProfileBtnDiv {
+    margin-top: 10px;
+}
+
+.editProfileBtn {
+    background-color: #000;
+    color: var(--font-color-light);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    border: 0.8px solid rgb(83, 100, 113);
+    border-radius: 9999px;
+    
+    padding: 0 16px;
+    min-height: 36px;
+    min-width: 36px;
+    cursor: pointer;
+
+    transition: 0.2 ease-in;
+}
+
+.editProfileBtn:hover {
+    background-color: var(--hover-color);
+}
+
+/*** user info ***/
+.border {
+    border-right: 0.1px solid var(--dark-grey);
+}
+
+.userInfo {
+    color: var(--font-color-dark);
+    padding: 0 16px 0 16px;
+    padding-bottom: 16px;
+    position: relative;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.username {
+    color: var(--font-color-light);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+.userHandle {
+    color: var(--font-color-dark);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.calendarSvg {
+    color: var(--font-color-dark);
+    fill: var(--font-color-dark);
+    line-height: 12px;
+    height: 18.75px;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+.calendarIcon {
+    color: white;
+    line-height: 12px;
+    font-size: 15px;
+}
+
+.dateJoined {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.stats a>span {
+    color: var(--font-color-light);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.stats a {
+    color: var(--font-color-dark);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: start;
+}
+
+.stats a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-light);
+}
+
+.following {
+    margin-right: 20px;
+}
+
+/*** nav links ***/
+.navLinks {
+    display: flex;
+    justify-content: content;
+    align-items: stretch;
+    flex-basis: auto;
+    height: 53px;
+    font-size: 15px;
+    /**remove after left componenet added**/
+    border-right: 0.1px solid var(--dark-grey);
+    border-bottom: 0.1px solid var(--dark-grey);
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: center; 
+    min-width: 56px;
+    width: 100%;
+    position: relative;
+}
+
+.link:hover {
+    background-color: var(--hover-color);
+}
+
+.link a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color-light);
+    padding: 0 16px;
+    min-width: 56px;
+    height: 53px;
+}
+
+.linkTextDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 52px;
+    line-height: 20px;
+    padding: 16px 0;
+    font-weight: 700;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.linkTextDiv .span {
+    color: var(--font-color-light);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.navLinks .active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    align-self: center;
+    align-items: stretch;
+    text-align: start;
+    min-width: 56px;
+    width: 55%;
+    height: 4px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 9999px;
+    background-color: var(--twitter-blue);
+}
+
+/*** tab content**/
+/* POSTS */
+
+/*** EDIT PROFILE ***/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.editProfileContainer {
+    margin: 0 16px;
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2;
+}
